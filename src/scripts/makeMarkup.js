@@ -1,5 +1,4 @@
 import Notiflix from 'notiflix';
-// import { refs } from './refs';
 export const refs = {
   inputRef: document.querySelector('#search-box'),
   countryListRef: document.querySelector('.country-list'),

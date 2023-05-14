@@ -18,3 +18,24 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.list-item img {
+  margin-right: 10px;
+}
+
+.countryflag {
+  display: flex;
+  align-items: center;
+}
+
+.countryflag img {
+  margin-right: 10px;
+}

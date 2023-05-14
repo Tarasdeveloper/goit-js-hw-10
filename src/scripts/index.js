@@ -1,4 +1,4 @@
-import '../css/styles.css';
+import './css/styles.css';
 import { fetchCountries } from './fetchCountries';
 import { makeMarkup } from './makeMarkup';
 import debounce from 'lodash.debounce';
@@ -18,7 +18,6 @@ function onSearch(event) {
     fetchCountries(searchCountry)
       .then(makeMarkup)
       .catch(error => {
-        console.log(error);
         Notiflix.Notify.failure('Oops, there is no country with that name');
       });
   }

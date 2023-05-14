@@ -6,8 +6,6 @@ export const refs = {
   countryInfoRef: document.querySelector('.country-info'),
 };
 
-// const { countryListRef, countryInfoRef } = refs;
-
 export function makeMarkup(value) {
   if (value.length > 10) {
     Notiflix.Notify.info(

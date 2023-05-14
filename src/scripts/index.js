@@ -7,8 +7,6 @@ import { refs } from './makeMarkup';
 
 const DEBOUNCE_DELAY = 300;
 
-// const { inputRef, countryListRef, countryInfoRef } = refs;
-
 refs.inputRef.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
 
 function onSearch(event) {

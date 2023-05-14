@@ -1,4 +1,4 @@
-import '../css/styles.css';
+import '/src/css/styles.css';
 import { fetchCountries } from './fetchCountries';
 import { makeMarkup } from './makeMarkup';
 import debounce from 'lodash.debounce';
